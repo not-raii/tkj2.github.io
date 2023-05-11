@@ -287,8 +287,10 @@ body {
   top: 50%; left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 15px;
-  width: 750px;
-  object-fit: cover;
+  width: fit-content;
+  height: 60%;
+  object-fit: contain;
+  z-index: 3000 !important;
 }
 
 @media (max-width:768px){
@@ -370,7 +372,7 @@ header
 }
 
 .header-area {
-  background-color: rgba(250,250,250,0.15);
+  background-color: rgba(0, 0, 0, 0.153);
   position: absolute;
   left: 0;
   right: 0;
@@ -1078,7 +1080,22 @@ section.memory .categories .main-button-red a {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-
+.meeting-item .thumb-more{
+  color: #1f272b;
+  content: "";
+  display: block;
+  border-radius: 20px;
+  background: url(../images/gallery.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.meeting-item .down-content-more{
+  text-align: center;
+  background-color: rgba(250, 250, 250, 0.885);
+  padding: 170px 50px;
+  border-radius: 20px;
+}
 .meeting-item .down-content .date {
   float: left;
   text-align: center;

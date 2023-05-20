@@ -1239,6 +1239,7 @@ section.students {
 
 .card-student{
   width: 17rem;
+  height: 560px;
   margin: 20px auto;
   padding: 0;
   border-radius: 145px 145px 0px 0px;
@@ -1246,7 +1247,7 @@ section.students {
 .card-student .card-img-top{
   border-radius: 145px 145px 0px 0px ;
   padding: 1px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .button-student a{

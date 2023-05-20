@@ -1238,14 +1238,15 @@ section.students {
 
 
 .card-student{
-  width: 18rem;
+  width: 17rem;
   margin: 20px auto;
-  border: none;
   padding: 0;
-  border-radius: 10px;
+  border-radius: 145px 145px 0px 0px;
 }
 .card-student .card-img-top{
-  border-radius: 10px 10px 0px 0px ;
+  border-radius: 145px 145px 0px 0px ;
+  padding: 1px;
+  object-fit: contain;
 }
 
 .button-student a{
@@ -1255,7 +1256,7 @@ section.students {
 
 .students .item .down-content h6 {
   padding: 0px 15px 15px 15px;
-  font-size: 16px;
+  font-size: 13px;
   color: #1f272b;
   text-align: center; 
   border-bottom: 1px solid #eee;
@@ -1418,11 +1419,19 @@ section.about-us h2 {
 }
 
 .card-teacher{
-  width: 23rem;
+  width: 25.5rem;
   margin: 15px auto;
   /* margin-left: 2rem; */
   border-radius: 20px;
   border: none;
+}
+.card-teacher .card-body p{
+  font-size: 14px;
+    /* font-style: italic; */
+    text-align: justify;
+}
+.card-teacher .card-body p a{
+  visibility: hidden;
 }
 .card-teacher .image-teacher{
   width: auto;
@@ -1431,7 +1440,7 @@ section.about-us h2 {
 .card-teacher .image-teacher img{
   height: 100%;
   width: 100%;
-  object-fit:contain;
+  object-fit:cover;
 }
 @media (max-width: 767px) {
   .card-teacher{

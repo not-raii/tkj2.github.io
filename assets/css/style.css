@@ -1765,7 +1765,7 @@ section.heading-page h2 {
 
 /* contact-us */
 section.heading-page-contact {
-  background-image: url(../images/bg-contact.jpg);
+  /* background-image: url(../images/bg-contact.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh !important;

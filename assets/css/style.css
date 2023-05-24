@@ -1830,7 +1830,7 @@ section.heading-page-contact h2 {
 
 .caption-contact{
   z-index: 1111;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1842,7 +1842,7 @@ section.heading-page-contact h2 {
 }
 
 .footer-content{
-  position: absolute;
+  /* position: absolute; */
   bottom: 10px;
   left: 10px;
   align-items: start;

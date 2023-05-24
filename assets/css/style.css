@@ -1767,8 +1767,9 @@ section.heading-page h2 {
 section.heading-page-contact {
   background-image: url(../images/bg-contact.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  height: max-content !important;
+  background-position: center center;
+  /* background-size: cover; */
+  /* height: max-content !important; */
   text-align: center;
 }
 section.heading-page-contact::before{

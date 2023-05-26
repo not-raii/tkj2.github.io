@@ -1795,7 +1795,8 @@ section.heading-page-contact {
   background-image: url(../images/bg-contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh !important;
+  background-position: center center;
+  background-attachment: fixed;
   text-align: center;
 }
 section.heading-page-contact::before{
@@ -1807,7 +1808,6 @@ section.heading-page-contact::before{
   bottom: 0;
   right: 0;
   width: 100%;
-  /* height: auto; */
 }
 section.heading-page-contact h6 {
   margin-top: 0px;

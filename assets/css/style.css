@@ -1861,6 +1861,7 @@ section.heading-page-contact h2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: 'Laila', sans-serif;
 }
 .caption-contact .main-button-red{
   display: flex;

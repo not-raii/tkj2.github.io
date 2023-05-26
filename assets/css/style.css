@@ -1893,7 +1893,7 @@ section.heading-page-contact h2 {
     font-size: 22px;
   }
   section.heading-page-contact {
-    background-position: center center;
+    /* background-position: center center; */
   }
   .footer-content img{
     width: 15%;

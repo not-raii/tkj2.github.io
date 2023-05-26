@@ -20,7 +20,10 @@ Table of contents
 font & reset css
 --------------------------------------------- 
 */
-@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Laila:wght@300;400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Laila:wght@300;400;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 /* 
 ---------------------------------------------
 reset
@@ -72,7 +75,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -150,13 +153,15 @@ body {
 
 .main-button-red a {
   font-size: 13px;
+  font-family: 'Laila', sans-serif;
+  font-weight: 600;
   color: #fff;
   background-color: #a12c2f;
-  padding: 12px 30px;
+  padding: 12px 40px;
   display: inline-block;
   border-radius: 22px;
-  font-weight: 500;
   text-transform: uppercase;
+  text-align: center;
   transition: all .3s;
   float: right;
 }
@@ -172,10 +177,8 @@ body {
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
-  font-weight: 500;
   text-transform: uppercase;
   transition: all .3s;
-  float: left;
 }
 
 .main-button-white a:hover {
@@ -185,6 +188,10 @@ body {
 .button-download .main-button-red a,
 .button-download .main-button-white a{
   padding: 12px 50px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Laila', sans-serif;
+  font-weight: 600;
 }
 
 .main-button-yellow a {
@@ -209,9 +216,10 @@ body {
   margin-bottom: 50px; 
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(250,250,250,0.15);
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
-  text-transform: uppercase;
+  font-family: 'Satisfy', cursive;
+  /* text-transform: uppercase; */
   color: #fff;
 }
 
@@ -386,6 +394,7 @@ header
 .header-area .main-nav {
   min-height: 80px;
   background: transparent;
+  font-family: 'Laila', sans-serif;
 }
 
 .header-area .main-nav .logo {
@@ -416,8 +425,7 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 18px;
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -426,7 +434,7 @@ header
 
 .header-area .main-nav .nav li a {
   display: block;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
   color: #fff;
@@ -816,6 +824,8 @@ banner
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  font-family: 'Laila', sans-serif;
+
 }
 
 .main-banner .caption h6 {
@@ -828,8 +838,8 @@ banner
 }
 
 .main-banner .caption h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 800;
@@ -848,6 +858,7 @@ banner
   font-size: 16px;
   max-width: 570px;
   line-height: 25px;
+  font-weight: 600;
 }
 
 .main-banner .caption .main-button-red {
@@ -896,15 +907,17 @@ services
 }
 
 .services .item h4 {
-  margin-top: 25px;
-  margin-bottom: 15px;
-  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 20px;
   font-weight: 600;
+  font-family: 'Laila', sans-serif;
 }
 
 .services .item p {
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
+  font-family: 'PT Serif', serif;
 }
 
 .services .owl-nav {
@@ -1079,6 +1092,7 @@ section.memory .categories .main-button-red a {
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  
 }
 .meeting-item .thumb-more{
   color: #1f272b;
@@ -1123,15 +1137,17 @@ section.memory .categories .main-button-red a {
 
 .meeting-item .down-content h4 {
   font-size: 18px;
+  font-family: 'Laila', sans-serif;
   color: #1f272b;
   font-weight: 600;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .meeting-item .down-content p {
   color: #1f272b;
-  font-size: 14px;
+  font-size: 15px;
+  font-family: 'Laila', sans-serif;
 }
 
 
@@ -1257,19 +1273,22 @@ section.students {
 
 .students .item .down-content h6 {
   padding: 0px 15px 15px 15px;
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 500;
   color: #1f272b;
   text-align: center; 
   border-bottom: 1px solid #eee;
   font-style: italic;
-}
+  font-family: 'PT Serif', serif;}
 
 .students .item .down-content .info {
   padding: 15px;
+  font-family: 'Laila', sans-serif;
 }
 
 .students .item .down-content .info h5{
   padding-bottom: 3px;
+  font-weight: 600;
 }
 
 .students .item .down-content .info p a img{
@@ -1410,13 +1429,10 @@ section.about-us {
 }
 
 section.about-us h2 {
-  font-size: 38px;
-  color: #fff;
-  line-height: 50px;
-  font-weight: 700;
   letter-spacing: 0.5px;
   margin-bottom: 50px;
   margin-top: 3rem;
+  font-family: 'Satisfy', cursive;
 }
 
 .card-teacher{
@@ -1425,11 +1441,14 @@ section.about-us h2 {
   /* margin-left: 2rem; */
   border-radius: 20px;
   border: none;
+  font-family: 'Laila', sans-serif;
 }
 .card-teacher .card-body p{
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: 500;
     /* font-style: italic; */
     text-align: justify;
+    font-family: 'PT Serif', serif;
 }
 .card-teacher .card-body p a{
   visibility: hidden;
@@ -1465,11 +1484,13 @@ section.about-us h2 {
 .count-area-content h5{
   color: #f5a425;
   font-weight: 700;
+  font-family: 'Laila', sans-serif;
   font-size: 25px;
 }
 .count-area-content p{
   margin: 8px 10%;
-  font-size: 14px;
+  font-size: 16px;
+  font-family: 'PT Serif', serif;
   font-weight: 500;
   color: #fff;
   letter-spacing: 0.5px;
@@ -1490,12 +1511,15 @@ section.about-us h2 {
     color: #f5a425;
     font-weight: 700;
     font-size: 36px;
+    font-family: 'Laila', sans-serif;
 }
 .count-title {
     font-size: 18px;
     font-weight: 500;
     color: #fff;
     letter-spacing: 0.5px;
+    font-family: 'PT Serif', serif;
+
 }
 
 .new-students {
@@ -1634,6 +1658,7 @@ section.contact-us .right-info ul li span {
   text-align: center;
   border-top: 1px solid rgba(250,250,250,0.15);
   padding: 50px 0px;
+  font-family: 'Laila', sans-serif;
 }
 .footer p {
   text-transform: uppercase;
@@ -1712,20 +1737,22 @@ section.heading-page h2 {
 }
 
 .heading-page-student h6 {
-  margin-top: 160px;
+  margin-top: 170px;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: 'Laila', sans-serif;
   color: #fff;
   letter-spacing: 1px;
 }
 
 .heading-page-student h2 {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   font-size: 36px;
   text-transform: uppercase;
   font-weight: 800;
+  font-family: 'Laila', sans-serif;
   color: #fff;
   letter-spacing: 1px;
 
@@ -1891,6 +1918,7 @@ section.meetings-page {
 
 section.meetings-page .filters {
   text-align: center;
+  font-family: 'Laila', sans-serif;
   margin-bottom: 60px;
 }
 
@@ -1898,7 +1926,7 @@ section.meetings-page .filters li {
   font-size: 13px;
   color: #a12c2f;
   background-color: #fff;
-  padding: 11px 30px;
+  padding: 11px 35px;
   display: inline-block;
   border-radius: 22px;
   font-weight: 600;

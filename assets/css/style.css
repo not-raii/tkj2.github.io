@@ -1791,6 +1791,70 @@ section.heading-page h2 {
 }
 
 /* contact-us */
+.section-contact{
+  background-image: url(../images/bg-contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* .section-contact::before{
+  content: "";
+  position: absolute;
+  background-color: rgba(31,39,43,0.75);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+} */
+.section-contact .caption{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 2222;
+  font-family: 'Laila', sans-serif;
+}
+.section-contact .caption .main-button-red{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.section-contact .caption p{
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.section-contact .caption .card{
+  width: 11.5rem;
+  padding: 3px 0;
+  padding-top: 5px;
+  border: none;
+  border-radius: 13px;
+  margin: 10px auto;
+  box-shadow: 0 15px 25px rgba(165, 163, 163, 0.486);
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.232);
+}
+.section-contact .caption .card a{
+  font-weight: 500;
+  color: rgb(23, 104, 255);
+  text-transform: none;
+  font-weight: 500;
+}
+.section-contact .caption .card a img{
+  width: 15%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
 section.heading-page-contact {
   background-image: url(../images/bg-contact.jpg);
   background-repeat: no-repeat;
@@ -1892,9 +1956,7 @@ section.heading-page-contact h2 {
   section.heading-page-contact h2{
     font-size: 22px;
   }
-  section.heading-page-contact {
-    /* background-position: center center; */
-  }
+
   .footer-content img{
     width: 15%;
     right: 35%;

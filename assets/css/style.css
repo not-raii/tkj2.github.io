@@ -1796,17 +1796,8 @@ section.heading-page h2 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  overflow-y: hidden;
 }
-/* .section-contact::before{
-  content: "";
-  position: absolute;
-  background-color: rgba(31,39,43,0.75);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-} */
 .section-contact .caption{
   height: 100vh;
   display: flex;
@@ -1956,7 +1947,6 @@ section.heading-page-contact h2 {
   section.heading-page-contact h2{
     font-size: 22px;
   }
-
   .footer-content img{
     width: 15%;
     right: 35%;

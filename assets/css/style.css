@@ -1853,30 +1853,30 @@ section.heading-page-contact h2 {
 }
 
 .footer-content{
+  width: 50%;
   position: absolute;
   bottom: 10px;
   left: 10px;
-  align-items: start;
   float: left;
 }
 .footer-content img{
-  width: 5%;
+  width: 75px;
   margin-left: 5px;
   margin-top: 5px;
-  position: relative;
-  right: 45%;
+  float: left;
 }
 .footer-content h5{
   font-size: 20px;
   color: #fff;
   text-align: left;
+  margin-left: 8px;
 }
 @media (max-width: 992px) {
   section.heading-page-contact h2{
     font-size: 22px;
   }
   .footer-content img{
-    width: 15%;
+    width: 50px;
     right: 35%;
   }
 }

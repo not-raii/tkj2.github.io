@@ -251,6 +251,7 @@ body {
 }
 
 .to-top.active {
+  display: none;
   bottom:32px;
   pointer-events: auto;
   opacity:1;
@@ -1770,24 +1771,14 @@ section.heading-page h2 {
 }
 
 /* contact-us */
-section.heading-page-contact {
+.heading-page-contact {
   background-image: url(../images/bg-contact.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
   text-align: center;
 }
-section.heading-page-contact::before{
-  content: "";
-  position: absolute;
-  background-color: rgba(31,39,43,0.75);
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-}
-section.heading-page-contact h6 {
+.heading-page-contact h6 {
   margin-top: 0px;
   font-size: 15px;
   text-transform: uppercase;
@@ -1795,14 +1786,14 @@ section.heading-page-contact h6 {
   color: #fff;
   letter-spacing: 1px;
 }
-section.heading-page-contact p {
+.heading-page-contact p {
   margin-top: 10px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
   letter-spacing: 1px;
 }
-section.heading-page-contact .card{
+.heading-page-contact .card{
   width: 11.5rem;
   padding: 3px 0;
   padding-top: 5px;
@@ -1813,21 +1804,21 @@ section.heading-page-contact .card{
   backdrop-filter: blur(20px);
   background-color: rgba(255, 255, 255, 0.29);
 }
-section.heading-page-contact .card:hover{
+.heading-page-contact .card:hover{
   opacity: 0.9;
 }
-section.heading-page-contact .card a{
+.heading-page-contact .card a{
   font-weight: 500;
   text-shadow: 0 1px 25px rgba(67, 88, 249, 0.911);
   color: rgb(23, 104, 255);
 }
-section.heading-page-contact .card a img{
+.heading-page-contact .card a img{
   width: 15%;
   display: inline-block;
   margin-bottom: 5px;
 }
 
-section.heading-page-contact h2 {
+.heading-page-contact h2 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 36px;
@@ -1852,20 +1843,20 @@ section.heading-page-contact h2 {
   margin-top: 2rem;
 }
 
-.footer-content{
+.supports{
   width: 50%;
   position: absolute;
   bottom: 10px;
   left: 10px;
   float: left;
 }
-.footer-content img{
+.supports img{
   width: 75px;
   margin-left: 5px;
   margin-top: 5px;
   float: left;
 }
-.footer-content h5{
+.supports h5{
   font-size: 20px;
   color: #fff;
   text-align: left;
@@ -1875,7 +1866,7 @@ section.heading-page-contact h2 {
   section.heading-page-contact h2{
     font-size: 22px;
   }
-  .footer-content img{
+  .supports img{
     width: 50px;
     right: 35%;
   }
